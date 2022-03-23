@@ -1,0 +1,7 @@
+/s1/target/
+/ws/target/
+/ws/webservice/target
+/s1/http/target/
+/s1/httpserver/target/
+/s1/tcpclient/target/
+/s1/tcpserver/target/

@@ -1,0 +1,20 @@
+[package]
+name = "webservice"
+version = "0.1.0"
+edition = "2021"
+# 运行webservice时,不指明二进制文件,默认时.teacher-service
+default-run = "teacher-service"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0.1"
+actix-rt = "2.7.0"
+serde ={version = "1.0.61", features = ["derive"]}
+chrono ={ version="0.4.10", features = ["serde"]}
+
+[[bin]]
+name ="service1"
+
+[[bin]]
+name ="teacher-service"
